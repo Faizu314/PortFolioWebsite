@@ -39,25 +39,25 @@
 				</nav>
 
 				<!-- Main -->
-					<div id="main" class="alt">
-
-						<!-- One -->
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h1>Overview</h1>
-									</header>
-									<p>About two months ago (2023 october-ish), I decided to work on a 6 months plan to finish as many hyper casual games as possible. The sole purpose is to learn and experience the process of finishing and publishing games as fast as possible before moving on to larger scoped projects. I am documenting the entire process along the way to keep track of how long and where I am spending time in development. By the end I aim to be able to make finished hyper casual games in less than a week.</p>
-								</div>
-								<hr class="major" />
-
-								<div class="inner">
-									<header class="major">
-										<h1>Faller</h1>
-									</header>
-									
-									<!-- Content -->
-									<iframe src="https://faizu314.github.io/Faller_WebGL/" style="border: 0" width="480px" height="1000px" frameborder="0" scrolling="no"></iframe>
+				<div id="main" class="alt">
+					
+					<!-- One -->
+					<section id="one">
+						<div class="inner">
+							<header class="major">
+								<h1>Overview</h1>
+							</header>
+							<p>About two months ago (2023 october-ish), I decided to work on a 6 months plan to finish as many hyper casual games as possible. The sole purpose is to learn and experience the process of finishing and publishing games as fast as possible before moving on to larger scoped projects. I am documenting the entire process along the way to keep track of how long and where I am spending time in development. By the end I aim to be able to make finished hyper casual games in less than a week.</p>
+						</div>
+						<hr class="major" />
+						
+						<div class="inner">
+							<header class="major">
+								<h1>Faller</h1>
+							</header>
+							
+							<!-- Content -->
+									<iframe src="https://faizu314.github.io/Faller_WebGL/" style="border: 0" width="480px" height="960px" frameborder="0" scrolling="no"></iframe>
 									<p>Will make the github repo public after publishing to Google Console.</p>
 									<div class="row">
 										<div class="col-6 col-12-small">
@@ -72,9 +72,16 @@
 										<div class="inner">
 											<h3>Challenges Faced</h3>
 											<p>This was really as simple as a game can be <b>But</b> that does not mean that the engineering has to be of low quality. The most interesting system was the save and load system. Although this was a very simple task, I wanted to use a save system that could fullfil two requirements, it should be reusable in other projects and it should be easily extended or changed in the later versions. For me engineering solutions to these kinds of problems is the best part of game development, I was able to deliver on these requirements in time and have uploaded this as a package in my Unity Library repository. (Click <a href="https://github.com/Faizu314/Phezu/tree/main/Assets/com.phezu.datasystem" target="_blank">here</a> to see)</p>
-											<p>Designing the application flow was also an interesting challenge. I eventually ended up using a state machine and a state machine based event system that dictated the core flow of the game. My reasons for settling on this design was to make the events as intuitive and simple as possible. I uploaded this as two packages, one for scene management and one as a hyper casual template (because the flow of the game is specific to this genre).</p>
-											<img src="images/FallerGameFlow.png" alt="" />
-											<p><sup>Game Control Flow Diagram</sup></p>
+											<div class="game-preview">
+												<div class="game-window">
+													<img src="images/FallerGameFlow.png" width="100%" height="auto" max-height="100%" overflow="hidden"/>
+												</div>
+												<div class="game-brief-window">
+													<div class="game-brief">
+														<p>Designing the application flow was also an interesting challenge. I eventually ended up using a state machine and a state machine based event system that dictated the core flow of the game. My reasons for settling on this design was to make the events as intuitive and simple as possible. I uploaded this as two packages, one for scene management and one as a hyper casual template (because the flow of the game is specific to this genre).</p>
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
 

@@ -2843,7 +2843,7 @@ input, select, textarea {
 				filter: blur(0.5em);
 				opacity: 0;
 			}
-
+			/*
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
 				width: 60%;
 			}
@@ -2871,6 +2871,7 @@ input, select, textarea {
 			.tiles article:nth-child(6n):before {
 				background-color: #87c5a4;
 			}
+			*/
 
 		@media screen and (max-width: 1280px) {
 
@@ -3736,7 +3737,7 @@ input, select, textarea {
 			}
 
 		}
-
+		
 /* Footer */
 
 	#footer .copyright {
@@ -3990,4 +3991,67 @@ input, select, textarea {
 		}
 		.myHeading {
 			margin:4px 0px;
+		}
+
+
+		.details {
+			border: 0px solid black;
+			width: 90%;
+			max-height: 80vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: auto;
+			margin-bottom: 2em;
+			flex-direction: row;
+			align-items: stretch;
+		}
+
+		.game-preview {
+			border: 1px solid black;
+			width: 90%;
+			max-height: 80vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: auto;
+			margin-bottom: 2em;
+			flex-direction: row;
+			align-items: stretch;
+		}
+
+		@media (max-aspect-ratio: 1.1/1) {
+			.game-preview {
+				flex-direction: column;
+			}
+		}
+
+		.game-window {
+			flex: 2;
+			display: flex;
+			justify-content: center;
+			overflow: hidden;
+		}
+		.game-brief-window {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			position: relative;
+		}
+
+		.game-brief {
+			flex: 8;
+			border: 0px solid;
+			border-color: black;
+			top: 0px;
+			padding: 2em 2em 0em 2em;
+		}
+
+		.game-links {
+			flex: 1;
+			border: 0px solid;
+			border-color: black;
+			bottom: 0px;
+			padding: 2em 0em 0em 2em;
 		}

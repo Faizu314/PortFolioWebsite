@@ -54,7 +54,8 @@
 							</header>
 
 							<!-- Content -->
-								<h2 id="content">Game Developer</h2>
+								<h2 id="content">Systems/Gameplay Programmer | Unity C#</h2>
+								<p>I have a strong background in mathematics and I love to engineer and build systems and gameplay mechanics.</p>
 						</div>
 
 						
@@ -65,17 +66,19 @@
 
 			<!-- Main -->
 
-			<!-- One -->
+			<!--
 			<section id="one" class="tiles">
 				<article>
 					<span class="image">
-						<img src="images/pic02.jpg" alt="" />
+						<img src="Gifs/FluidSim.gif" alt="" />
 					</span>
-					<header class="major">
-						<h3><a href="Faller.html" class="link">About Me</a></h3>
+				</article>
+				<div>
+					<header class="inner">
+						<h3><a href="AboutMe.html" class="link">About Me</a></h3>
 						<p>Get to know about who I am</p>
 					</header>
-				</article>
+				</div>
 				<article>
 					<span class="image">
 						<img src="images/pic01.jpg" alt="" />
@@ -122,6 +125,116 @@
 					</header>
 				</article>
 			</section>
+			-->
+
+			<div class="game-preview">
+				<div class="game-window">
+					<img src="Gifs/Faller.gif" width="100%" height="auto" max-height="100%" overflow="hidden"/>
+				</div>
+				<div class="game-brief-window">
+					<div class="game-brief">
+						<h3>What I worked on</h3>
+						<ul>
+							<li>Custom scene management system specific for this genre.</li>
+							<li>Save/Load serialization and encryption system for the player profile. This system is compatible with extending data in the player profile in later versions.</li>
+							<li>Game mechanics, hud UI system, VFX, animations (using code).</li>
+						</ul>
+						<p>To play the game click <a href="https://faizu314.github.io/Faller_WebGL/" target="_blank">here</a></a></p>
+					</div>
+				</div>
+			</div>
+			<div class="game-preview">
+				<div class="game-window">
+					<img src="Gifs/CellularAutomata.gif" width="100%" height="auto" max-height="100%" overflow="hidden"/>
+				</div>
+				<div class="game-brief-window">
+					<div class="game-brief">
+						<h3>What I worked on</h3>
+						<ul>
+							<li>A pipeline that generates map data using 4 steps, these steps use Cellular Automata and then a correction algorithm to ensure all areas are accessible, all of these steps are ran on a separate thread and one of them executes on multiple threads.</li>
+							<li>A queue system which determines when to generate which step of a chunk based on hardware, cached data and player position.</li>
+							<li>A pool system which puts the correct tile in its position on demand and returns it back when out of range.</li>
+						</ul>
+						<p>Click <a href="https://github.com/Faizu314/Surviving-Cellular-Automata" target="_blank">Here</a> to see the code.</p>			
+					</div>
+				</div>
+			</div>
+			<div class="game-preview">
+				<div class="game-window">
+					<img src="Gifs/PlantSystem.gif" width="100%" height="auto" max-height="100%" overflow="hidden"/>
+				</div>
+				<div class="game-brief-window">
+					<div class="game-brief">
+						<h3>What I worked on</h3>
+						<ul>
+							<li>A simulation that keeps track of nutrients and water content travelling between soil, roots, stem, leaves and fruit.</li>
+							<li>Visual effects that change the appearence of all parts based on growth.</li>
+							<li>A shader for the stem growth.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="game-preview">
+				<div class="game-window">
+					<img src="Gifs/Softbody.gif" width="100%" height="auto" max-height="100%" overflow="hidden"/>
+				</div>
+				<div class="game-brief-window">
+					<div class="game-brief">
+						<h3>What I worked on</h3>
+						<ul>
+							<li>Softbody physics system composing of point masses, edges, a reference frame and a controller.</li>
+							<li>Sprite deformation and visuals using sprite rigging with bones.</li>
+							<li>Refraction shader for the jelly.</li>
+							<li>The sticking and jumping mechanics.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="game-preview">
+				<div class="game-window">
+					<img src="Gifs/SamuraiShader.gif" width="100%" height="auto" max-height="100%" overflow="hidden"/>
+				</div>
+				<div class="game-brief-window">
+					<div class="game-brief">
+						<h3>What I worked on</h3>
+						<ul>
+							<li>Visual sound cue system where multiple sound sources can trigger a visual effect in surroundings.</li>
+							<li>Pipeline responsible for queueing sound events and forwarding their data to respective material property blocks.</li>
+							<li>HLSL shader for the visual effect.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="game-preview">
+				<div class="game-window">
+					<img src="Gifs/TerrainGen.gif" width="100%" height="auto" max-height="100%" overflow="hidden"/>
+				</div>
+				<div class="game-brief-window">
+					<div class="game-brief">
+						<h3>What I worked on</h3>
+						<ul>
+							<li>Pipeline for generation map chunks on a separate thread.</li>
+							<li>Multiple LoDs for the chunk meshes.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="details">
+				<a href="UnityLibrary.html">See my Unity Library</a>
+			</div>
+			<div class="details">
+				<a href="Experience.html">See my Experience</a>
+			</div>
+			<div class="details">
+				<a href="HobbyProjects.html">See all of my Projects</a>
+			</div>
+			<div class="details">
+				<a href="AboutMe.html">Read more About Me</a>
+			</div>
+			<div class="details">
+				<a href="Contact.html">Contact me</a>
+			</div>
 
 			<!-- Footer -->
 			<footer id="footer">
