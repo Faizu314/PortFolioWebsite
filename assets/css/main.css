@@ -3997,8 +3997,8 @@ input, select, textarea {
 		.details {
 			border: 0px solid black;
 			width: 90%;
-			max-height: 80vh;
 			display: flex;
+			flex-wrap: wrap;
 			justify-content: center;
 			align-items: center;
 			margin: auto;
@@ -4053,5 +4053,15 @@ input, select, textarea {
 			border: 0px solid;
 			border-color: black;
 			bottom: 0px;
+			padding: 0em 0em 2em 0em;
+		}
+
+		.game-button {
+			border-bottom: none !important;
+			padding: 0em 0em 0em 2em;
+		}
+
+		.details-button {
+			border-bottom: none !important;
 			padding: 2em 0em 0em 2em;
 		}
