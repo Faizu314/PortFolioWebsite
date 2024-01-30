@@ -30,7 +30,6 @@
 					<ul class="links">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="AboutMe.html">About Me</a></li>
-						<li><a href="IndieGames.html">Indie Games</a></li>
 						<li><a href="Experience.html">Experience</a></li>
 						<li><a href="HobbyProjects.html">Projects</a></li>
 						<li><a href="UnityLibrary.html">My Unity Library</a></li>
@@ -45,107 +44,112 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h1>Hobby Projects</h1>
+										<h1>Projects</h1>
 									</header>
 
 									<!-- Content -->
-									<div class="row">
+
+									<div id= "GameJam" class="row">
 										<div class="inner">
-											<h3>Overview</h3>
-											<p>These are some of my projects I worked on in my spare time. I have listed them here chronologically so that you can see where I started from and how I got to where I am.</p>
-										</div>
-										<div class="inner">
-											<h3>Fluid Simulation (2019)</h3>
-											<p>Was very interested in procedural/visual effects and eager to get into them. I thought javascript would be a good idea as I can see a live preview of what I'm doing. I implemented this using navier stokes equation with the help of an old paper. Very quickly moved to shaders after realising that the proper way to do these is using the GPU. (This code is executed on the CPU)</p>
-										</div>
-									</div>
-									<article>
-										<span class="image">
-											<img src="Gifs/FluidSim.gif" height="300"/>
-										</span>
-											<a href="https://codesandbox.io/p/sandbox/fluiddynamics-fm1uf" target="_blank" class="link">See live demo</a>
-									</article><hr>
-									
-									<div class="row">
-										<div class="inner">
-											<h3>Procedural Terrain (2019)</h3>
-											<p>One of the first things I tried in Unity was generating terrain procedurally. I have always been fascinated by this subject as a consumer of video games and as a lover of mathematics. In this project I followed a really popular tutorial series by sebastian leaque to get a feel of how experienced people approach this challenge in game development. Even though the terrain was not detailed and had a simple texture, the fact that "code" produced this result using "cold maths" is just heartwarming for me. </p>
-										</div>
-									</div>
-									<article>
-										<span class="Videos">
-											<video src="Videos/ProceduralGeneration.mp4" height="300" width="535" controls>
-											</video>
-										</span>
-									</article><hr>
-
-
-									<div class="row">
-										<div class="inner">
-											<h3>Cellular Automata (2021)</h3>
-											<p>Got really interested in cellular automata when I discovered it. After implementing the basic algorithm I had the idea to use continuous cellular automata to be able to smoothly transition from one biome to another. As I researched this area I went deeper and deeper into the rabbit hole and proposed this as a research idea to my university as a final year project. Sadly that did not work out and I instead worked on a different project (VR Game). However, I am still very motivated to continue this at the appropriate time because these are the kinds of projects I am mostly passionate about.<br><h4>Details</h4>I am using marching squares algorithm which is why the map does not appear as blocky. I also made a correction algorithm which always ensures that no part of the generated map is block off.</p>
-										</div>
-									</div>
-									<article>
-										<span class="Videos">
-											<video src="Videos/CellularAutomataPCG.mp4" height="300" width="535" controls>
-											</video>
-										</span>
-											<a href="https://github.com/Faizu314/Surviving-Cellular-Automata" target="_blank" class="link">See code</a>
-									</article><hr>
-
-									<div class="row">
-										<div class="inner">
-											<h3>Softbody Physics (2023)</h3>
-											<p>Wanted to implement custom softbody physics but as I was motivated to finish this project fast I used unity's physics system instead. The results were pretty satisfactory for a mobile game. There was no solid game idea direction, I was only motivated to implement softbody mechanics so this project was discontinued.</p>
-										</div>
-									</div>
-									<article>
-										<span class="Videos">
-											<video src="Videos/Softbody.mp4" height="300" width="535" controls>
-											</video>
-										</span>
-											<a href="https://github.com/Faizu314/Blobby" target="_blank" class="link">See code</a>
-									</article><hr>
-
-									
-									<div class="row">
-										<div class="inner">
-											<h3>Grapple Mechanics (2023)</h3>
-											<p>At this point I was rapid prototyping for hyper casual ideas and made a grapple mechanic.</p>
-										</div>
-									</div>
-									<article>
-										<span class="Videos">
-											<video src="Videos/MonkeyBoxDemo.mp4" height="300" width="535" controls>
-											</video>
-										</span>
-									</article><hr>
-
-
-
-									
-									<div class="row">
-										<div class="inner">
-											<h3>Custom Rope Joint (2023)</h3>
-											<p>This is also one of the rapid prototyping idea and I chose to stick with this one for the second hyper casual game. (The first one was Faller <a href="IndieGames.html">See here</a>)</p>
-										</div>
-									</div>
-									<article>
-										<span class="Videos">
-											<video src="Videos/RopeDemo.mp4" height="300" width="535" controls>
-											</video>
-										</span>
-									</article><hr>
-
-
-									<div class="row">
-										<div class="inner">
-											<h2>Research</h2>
-											<h3>Object System (2021-2023)</h3>
-											<p>This is the biggest project I have ever worked on and really defines what I want to do in this field. I have worked on this for over 1.5 years and fully plan to continue development but as of now it is still incomplete. <br/><br/>
-												In this project I am developing an algorithm to procedurally generate rules that a game uses as its core game mechanics to feature truly replayable and infinite gameplay. This is not an easy task (might even be impossible) but I still choose to invest time in it because it is worth it for me. Over the course of researching this area I had to learn abstract algebra, group theory, computational theory, various algorithms, project management, unit testing and much more. Even though I don't have a prototype to show I still think that this project says more about me than anything else I have worked on.
+											<h2>Modern day Llama</h2>
+											<p>This was our Global Game Jam 2024 submission. We were a team of 5 where I worked as the gameplay programmer. This project was done remotely where we communicated over discord and collaborated over Github.<br> The theme of the game jam was "Make me Laugh". In this game you are a Llama hired by a barber who's job is to spit on pedestrains' hair to motivate them to visit the barber shop.
+												<a href="https://globalgamejam.org/games/2024/modern-day-lama-4#" target="_blank">Game Jam Link</a>
 											</p>
+										</div>
+									</div>
+									<div class="game-preview">
+										<div class="game-window">
+											<video src="Videos/GameJam.mp4" width="100%" height="auto" max-height="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+									<div class="row">
+										<div class="inner">
+											<h3>What I worked on</h3>
+											<ul>
+												<li>Input System: For Input, I used the Unity's new Input System, a Singleton InputManager and a PlayerInput class for player specific Inputs.</li>
+												<li>Player controller: The player controller was divided into a Controller class and a Motor class.</li>
+												<li>Projectile system: This comprised of a Thrower class and a Projectile class. The Projectile class used a scriptable object for data like speed, range, particle effects and sounds.</li>
+												<li>Audio system (FMOD): I made a singleton class to keep all of the Audio Event references at one place to make the importing work flow of our Audio Engineer easy. I also had an AudioManager which contained all of the boiler plate code to link to the Fmod library.</li>
+												<li>Git: I managed the git repository, this meant maintaining the branch of non technical team members before pulling them to main and making sure nothing goes wrong.</li>
+											</ul>
+										</div>
+									</div><hr>
+
+									<div id="CellularAutomata" class="row">
+										<div class="inner">
+											<h3>Cellular Automata</h3>
+											<p>This was a hobby project to experiment with Cellular Automata and Procedural Generation.</p>
+										</div>
+									</div>
+									<div class="game-preview">
+										<div class="game-window">
+											<video src="Videos/CellularAutomataPCG.mp4" width="100%" height="auto" max-height="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+									<div class="row">
+										<div class="inner">
+											<h3>How it works</h3>
+											<ul>
+												<li>Generating Chunks: The generation of chunks was divided into 4 steps to spread the work load over frames
+													<ul>
+														<li>First Step: Loading a 2D binary array with random values.</li>
+														<li>Second Step: Applying the Cellular Automata iterations.</li>
+														<li>Third Step: Applying my correction algorithm to ensure all areas are accessible.</li>
+														<li>Fourth Step: Applying marching squares algorithm to determine which tile goes at each position.</li>
+													</ul>
+												</li>
+												<li>Pooling System: The pool system gets the coordinate around the player and places the correct tile from the pool.</li>
+											</ul>
+										</div>
+									</div>
+									<hr>
+
+
+									<div id="Softbody" class="row">
+										<div class="inner">
+											<h3>Softbody Physics</h3>
+											<p>In this project I implemented custom softbody physics using unity's physics system. The results were pretty satisfactory for a mobile game.
+												<a href="https://github.com/Faizu314/Blobby" target="_blank">Github Link</a>
+											</p>
+										</div>
+									</div>
+									<div class="game-preview">
+										<div class="game-window">
+											<video src="Videos/Softbody.mp4" width="100%" height="auto" max-height="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+									<div class="row">
+										<div class="inner">
+											<h3>How it works</h3>
+											<ul>
+												<li>The soft body consists of a set of points attached to each other with spring joints.</li>
+												<li>For collision, I attached edge colliders to the point masses using spring joints.</li>
+												<li>Point Masses Controller: This script dynamically applies a pressure force depending on how compressed the body is. It also changes the spring joint properties if the body is too compressed to allow it to return to its original shape.</li>
+												<li>The soft body is rendered using a sprite renderer with bones representing the point masses. These bones follow the point masses for deformation.</li>
+											</ul>
+										</div>
+									</div>
+									<hr>
+
+
+									<div id="Samurai" class="row">
+										<div class="inner">
+											<h3>Samurai Shader</h3>
+											<p>This is a Samurai game where the player is given auditory cues to interpret his/her environment. In the sample you can see one Audio Emitter that is giving out its cue.</p>
+										</div>
+									</div>
+									<div class="game-preview">
+										<div class="game-window">
+											<video src="Videos/SamuraiShaderDemo.mp4" width="100%" height="auto" max-height="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+									<div class="row">
+										<div class="inner">
+											<h3>How it works</h3>
+											<ul>
+												<li>Effect Shader: This shader takes a list of audio emitters as parameter to render the effect around it. The effect is a propogation wave which highlights the edges and lights up the surfaces.</li>
+												<li>Cue System: Anything that emits an auditory cue sends a command to the CueManager which forwards its data to the shader.</li>
+											</ul>
 										</div>
 									</div>
 								</div>
