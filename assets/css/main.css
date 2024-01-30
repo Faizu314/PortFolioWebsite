@@ -4002,7 +4002,7 @@ input, select, textarea {
 			justify-content: center;
 			align-items: center;
 			margin: auto;
-			margin-bottom: 2em;
+			margin-bottom: 0em;
 			flex-direction: row;
 			align-items: stretch;
 		}
@@ -4010,7 +4010,6 @@ input, select, textarea {
 		.game-preview {
 			border: 1px solid black;
 			width: 90%;
-			max-height: 80vh;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -4020,7 +4019,7 @@ input, select, textarea {
 			align-items: stretch;
 		}
 
-		@media (max-aspect-ratio: 1.1/1) {
+		@media (max-aspect-ratio: 2/1) {
 			.game-preview {
 				flex-direction: column;
 			}
@@ -4049,11 +4048,13 @@ input, select, textarea {
 		}
 
 		.game-links {
+			display: flex;
 			flex: 1;
 			border: 0px solid;
 			border-color: black;
 			bottom: 0px;
-			padding: 0em 0em 2em 0em;
+			flex-direction: row;
+			margin: 0em 2em 2em 0em;
 		}
 
 		.game-button {
@@ -4063,5 +4064,9 @@ input, select, textarea {
 
 		.details-button {
 			border-bottom: none !important;
-			padding: 2em 0em 0em 2em;
+			padding: 0em 1em 2em 1em;
+		}
+
+		.resume-button {
+			border-bottom: none !important;
 		}
