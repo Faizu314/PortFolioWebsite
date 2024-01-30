@@ -4054,19 +4054,23 @@ input, select, textarea {
 			border-color: black;
 			bottom: 0px;
 			flex-direction: row;
-			margin: 0em 2em 2em 0em;
+			margin: 0em 2em 2em 2em;
 		}
 
 		.game-button {
 			border-bottom: none !important;
-			padding: 0em 0em 0em 2em;
+			margin: 0em 1em 0em 0em;
+			max-width: 100%;
 		}
 
 		.details-button {
 			border-bottom: none !important;
-			padding: 0em 1em 2em 1em;
+			padding: 0em 4% 2em 4%;
 		}
 
 		.resume-button {
 			border-bottom: none !important;
 		}
+
+		/* Top Right Bottom Left */
+		
