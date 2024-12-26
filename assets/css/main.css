@@ -3649,7 +3649,7 @@ input, select, textarea {
 
 		#main.alt {
 			background-color: transparent;
-			border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+			border-bottom: solid 0px rgba(212, 212, 255, 0.1);
 		}
 		#main.alt2 {
 			background-color: transparent;
@@ -4008,7 +4008,7 @@ input, select, textarea {
 		}
 
 		.game-preview {
-			border: 1px solid black;
+			border: 0px solid black;
 			width: 90%;
 			display: flex;
 			justify-content: center;
@@ -4030,6 +4030,7 @@ input, select, textarea {
 			display: flex;
 			justify-content: center;
 			overflow: hidden;
+			border: 1px solid black;
 		}
 		.game-brief-window {
 			flex: 1;
@@ -4037,6 +4038,8 @@ input, select, textarea {
 			flex-direction: column;
 			justify-content: center;
 			position: relative;
+			border: 1px solid black;
+			border-top: 0px;
 		}
 
 		.game-brief {

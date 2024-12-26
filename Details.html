@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Faizan Qaiser Unity Packages</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>FQ</strong> <span>Portfolio</span></a>
+									<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="AboutMe.html">About Me</a></li>
+						<li><a href="Experience.html">Experience</a></li>
+						<li><a href="Details.html">Projects</a></li>
+						<li><a href="UnityLibrary.html">My Unity Library</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div id="Mindstorm" class="inner">
+									<header class="major">
+										<h1>Mindstorm Studios</h1>
+									</header>
+
+									<!-- Content -->
+
+									<div id= "RecklessRick" class="row">
+										<div class="inner">
+											<h2>Reckless Rick</h2>
+											<p>At Mindstorm I worked as one of the core developers for one of their prototypes called Reckless Rick. This is an Open-World, Idle-Arcade, Casual, mobile game featuring an open world with GTA style missions and a shooting (Archero style) game mechanic.
+											</p>
+										</div>
+									</div>
+
+									<div class="game-preview">
+										<div class="game-window">
+											<video src="Videos/RecklessRick.mp4" width="30%" height="100%" max-width="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+									<div class="row">
+										<div class="inner">
+											<h3>What I worked on</h3>
+											<ul>
+												<li>The <b>Indoors Arena</b> is using a package called SquadShooter. This package was intended to be used as a complete game therefore many of its components had to be changed to incorporate it into our code base. For example, each system was designed to have an application-wide lifetime, this had to be changed as the shooting was now only taking place indoors and had to be shutdown when the player returned to the open world.</li>
+												<li>The <b>Shooting Mechanic</b> had to be extended by adding variable elevations to the levels. This allowed enemies and the player to be able to target upwards and downwards as well.</li>
+												<li>The <b>Pedestrians System</b> is a package called Gley. Throughout the prototyping process I had to change many of the components of this system. These include the Obstacle Avoidance, disconnecting pedestrians from gley for custom behaviour, culling and spawning of pedestrians etc.</li>
+												<li>The <b>Boss Fights</b> are made by appending the squad shooter package and writing custom behaviour for the boss enemies. These behaviours include the Air Bomb attack, Teleporting, Spawning other enemies etc. I was also responsible for adding the animations, effects and overall polishing.</li>
+												<li>The <b>Camera controller</b> went through many iterations before settling on a fixed camera angle and an occlusion system which makes objects that are occluding the view transparent.</li>
+												<li>For the <b>Player Controller</b> we are using a package called Invector. I was responsible for importing our own models/animations to invector's system.</li>
+											</ul>
+										</div>
+									</div><hr>
+
+									<div id= "StackFlow" class="row">
+										<div class="inner">
+											<h2>Stack Flow</h2>
+											<p>Stack Flow is a puzzle mobile prototype. For this project, I was the sole developer working with a team of 2D and UI artists. Most of the functionality required for a simple prototype like this was already implemented in an in-house utility package, my responsibility was to implement features specific to this game idea.</p>
+										</div>
+									</div>
+
+									<div class="game-preview">
+										<div class="game-window">
+											<video src="Videos/StackFlow.mp4" width="30%" height="100%" max-width="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+									<div class="row">
+										<div class="inner">
+											<h3>What I worked on</h3>
+											<ul>
+												<li>Hexagon grid system.</li>
+												<li>Card animation tweens.</li>
+											</ul>
+										</div>
+									</div><hr>
+
+									<div id= "SpyMaster" class="row">
+										<div class="inner">
+											<h2>Spy Master</h2>
+											<p>This is a card game where you have to guess the right cards using the given clues. This was an onboarding project for me at Mindstorm where I was paired up with a seasoned developer to get used to their in house tools, kits and workflow.</p>
+										</div>
+									</div>
+
+									<div class="game-preview">
+										<div class="game-window">
+											<video src="Videos/SpyMaster.mp4" width="30%" height="100%" max-width="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+
+									<header id="Dastaan" class="major">
+										<h1>Dastaan Studios</h1>
+									</header>
+
+									<div id="Samurai" class="row">
+										<div class="inner">
+											<h3>Samurai VR</h3>
+											<p>This is a Virtual Reality Samurai game where the player is given auditory cues to interpret his/her environment. This is a multiplayer game and the core mechanic is to throw projectiles at enemies.</p>
+										</div>
+									</div>
+									<div class="game-preview">
+										<div class="game-window">
+											<video src="Videos/SamuraiShaderDemo.mp4" width="100%" height="auto" max-height="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+									<div class="row">
+										<div class="inner">
+											<h3>What I worked on</h3>
+											<ul>
+												<li>Used Hurricane VR to make a Projectile throwing system.</li>
+												<li>Used Photon Fusion to synchronize game across clients.</li>
+												<li>Effect Shader: This shader takes a list of audio emitters as parameter to render the effect around it. The effect is a propogation wave which highlights the edges and lights up the surfaces.</li>
+											</ul>
+										</div>
+									</div><hr>
+									
+									<div id="WallpaperApp" class="row">
+										<div class="inner">
+											<h3>Wallpaper App</h3>
+											<p>This is an Android Wallpaper Application built using Java and Unity. The unity engine is embedded as a third party library inside the android application. The live wallpapers are rendered by a Unity camera in a 3D scene and the render is passed on to Android's Wallpaper service. I was the sole developer who was tasked with developing a prototype.</p>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="inner">
+											<h3>What I worked on</h3>
+											<ul>
+												<li>I wrote a bi-directional communication system between the android and unity side of the application.</li>
+												<li>I wrote a wallpaper editor screen inside Unity which allowed the user to import up to 3 images from the gallery and move and scale them.</li>
+												<li>I added google sign in and setup firebase for user data storage.</li>
+											</ul>
+										</div>
+									</div><hr>
+
+									<header class="major">
+										<h1>Hobby Projects</h1>
+									</header>
+
+									<div id= "GameEngine" class="row">
+										<div class="inner">
+											<h2>Game Engine</h2>
+											<p>This is a Game Engine in C++ that uses SDL2 library to communicate with low level hardware components (Input, multimedia, graphics). The engine supports windows and mac platforms and includes a setup script to build for Visual Studio (Windows) and XCode (Mac) using Cmake. In the preview you can see a sample game I made on top of it.
+												<a href="https://github.com/Faizu314/Breakout.git#" target="_blank">Github</a>
+											</p>
+										</div>
+									</div>
+
+									<div class="game-preview">
+										<div class="game-window">
+											<img src="images/BreakoutPreview.png" width="100%" height="auto" max-height="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+									<div class="row">
+										<div class="inner">
+											<h3>Engine Features</h3>
+											<ul>
+												<li> Rendering and physics of simple shapes.</li>
+												<li> Behaviour Components (Like Unity)</li>
+												<li> Scene Management (Loading and Unloading Scenes)</li>
+												<li> Hierachies of Entities (Parents, children, siblings)</li>
+												<li> Prefab system</li>										
+											</ul>
+										</div>
+									</div><hr>
+
+									<div id= "IndieGames" class="row">
+										<div class="inner">
+											<h2>Indie Games</h2>
+											<p> <a href="Faller.html" target="_blank">Faller Game</a><br>
+												<a href="MonkeyBox.html" target="_blank">MonkeyBox Game</a>
+											</p>
+										</div>
+									</div>
+
+									<div id= "GameJam" class="row">
+										<div class="inner">
+											<h2>Modern day Llama</h2>
+											<p>This was our Global Game Jam 2024 submission. We were a team of 5 where I worked as the gameplay programmer. This project was done remotely where we communicated over discord and collaborated over Github.<br> The theme of the game jam was "Make me Laugh". In this game you are a Llama hired by a barber who's job is to spit on pedestrains' hair to motivate them to visit the barber shop.
+												<a href="https://globalgamejam.org/games/2024/modern-day-lama-4#" target="_blank">Game Jam Link</a>
+											</p>
+										</div>
+									</div>
+
+									<div class="game-preview">
+										<div class="game-window">
+											<video src="Videos/GameJam.mp4" width="100%" height="auto" max-height="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+									<div class="row">
+										<div class="inner">
+											<h3>What I worked on</h3>
+											<ul>
+												<li>Input System: For Input, I used the Unity's new Input System, a Singleton InputManager and a PlayerInput class for player specific Inputs.</li>
+												<li>Player controller: The player controller was divided into a Controller class and a Motor class.</li>
+												<li>Projectile system: This comprised of a Thrower class and a Projectile class. The Projectile class used a scriptable object for data like speed, range, particle effects and sounds.</li>
+												<li>Audio system (FMOD): I made a singleton class to keep all of the Audio Event references at one place to make the importing work flow of our Audio Engineer easy. I also had an AudioManager which contained all of the boiler plate code to link to the Fmod library.</li>
+												<li>Git: I managed the git repository, this meant maintaining the branch of non technical team members before pulling them to main and making sure nothing goes wrong.</li>
+											</ul>
+										</div>
+									</div><hr>
+
+									<div id="CellularAutomata" class="row">
+										<div class="inner">
+											<h3>Cellular Automata</h3>
+											<p>This was a hobby project to experiment with Cellular Automata and Procedural Generation.</p>
+										</div>
+									</div>
+									<div class="game-preview">
+										<div class="game-window">
+											<video src="Videos/CellularAutomataPCG.mp4" width="100%" height="auto" max-height="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+									<div class="row">
+										<div class="inner">
+											<h3>How it works</h3>
+											<ul>
+												<li>Generating Chunks: The generation of chunks was divided into 4 steps to spread the work load over frames
+													<ul>
+														<li>First Step: Loading a 2D binary array with random values.</li>
+														<li>Second Step: Applying the Cellular Automata iterations.</li>
+														<li>Third Step: Applying my correction algorithm to ensure all areas are accessible.</li>
+														<li>Fourth Step: Applying marching squares algorithm to determine which tile goes at each position.</li>
+													</ul>
+												</li>
+												<li>Pooling System: The pool system gets the coordinate around the player and places the correct tile from the pool.</li>
+											</ul>
+										</div>
+									</div><hr>
+
+									<div id="Softbody" class="row">
+										<div class="inner">
+											<h3>Softbody Physics</h3>
+											<p>In this project I implemented custom softbody physics using unity's physics system. The results were pretty satisfactory for a mobile game.
+												<a href="https://github.com/Faizu314/Blobby" target="_blank">Github Link</a>
+											</p>
+										</div>
+									</div>
+									<div class="game-preview">
+										<div class="game-window">
+											<video src="Videos/Softbody.mp4" width="100%" height="auto" max-height="100%" overflow="hidden" controls></video>
+										</div>
+									</div>
+									<div class="row">
+										<div class="inner">
+											<h3>How it works</h3>
+											<ul>
+												<li>The soft body consists of a set of points attached to each other with spring joints.</li>
+												<li>For collision, I attached edge colliders to the point masses using spring joints.</li>
+												<li>Point Masses Controller: This script dynamically applies a pressure force depending on how compressed the body is. It also changes the spring joint properties if the body is too compressed to allow it to return to its original shape.</li>
+												<li>The soft body is rendered using a sprite renderer with bones representing the point masses. These bones follow the point masses for deformation.</li>
+											</ul>
+										</div>
+									</div><hr>
+
+								</div>
+							</section>
+							
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://www.github.com/Faizu314" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/faizan-qaiser-617a23230" class="icon brands alt fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
